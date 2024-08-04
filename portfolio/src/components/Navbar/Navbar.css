@@ -4,6 +4,15 @@
     justify-content: space-between;
     margin: 20px 100px;
 }
+.navbar-name{
+    background: linear-gradient(270deg,#df8908 10%, #b415ff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'outfit';
+}
 
 .nav-menu{
     display: flex;
