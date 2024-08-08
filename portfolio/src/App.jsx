@@ -5,6 +5,9 @@ import About from './components/About/About';
 import Skill from './components/Skill/Skill';
 import Project from './components/Project/Project';
 import Contact from './components/Contact/Contact';
+import Bottom from './components/Bottom/Bottom';
+import './App.css'
+
 
 const App = () => {
   return (
@@ -15,6 +18,8 @@ const App = () => {
      <Skill/>
      <Project/>
      <Contact/>
+     <hr className='hr' />
+  <Bottom/>
     </div>
   )
 }
