@@ -5,7 +5,7 @@ import netflixClone from '../../assets/netflixClone.png'
 import viratResume from '../../assets/viratResume.png'
 const Project = () => {
   return (
-    <div className='projects'>
+    <div id='project' className='projects'>
       <div className="project-title">
         <h1> My Projects</h1>
       </div>

@@ -10,7 +10,7 @@ import database from '../../assets/database.png'
 
 const Skill = () => {
     return (
-        <div className='skill'>
+        <div id='skill' className='skill'>
             <div className="skill-title">
                 <h1>Skills</h1>
             </div>

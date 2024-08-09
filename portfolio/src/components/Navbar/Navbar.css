@@ -34,3 +34,21 @@
 .nav-connect:hover{
     transform: scale(1.03);
 }
+
+.anchor-link{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.anchor-link:hover{
+    background: linear-gradient(270deg,#df8908 10%, #b415ff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+li:hover{
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+}

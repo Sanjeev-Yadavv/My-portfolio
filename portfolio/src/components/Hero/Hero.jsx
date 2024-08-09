@@ -3,7 +3,7 @@ import './Hero.css'
 import image from '../../assets/image.jpg'
 const Hero = () => {
     return (
-        <div className='hero'>
+        <div id='hero' className='hero'>
             <img src={image} alt="" />
             <h1><span>I am Samjeev Kumar,</span> Frontend Developer.</h1>
             <p>I create dynamic and user-friendly web interfaces, combining my business background with
