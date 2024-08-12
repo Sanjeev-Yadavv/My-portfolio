@@ -29,6 +29,7 @@
     font-size: 22px;
     cursor: pointer;
     transition: 0.5s;
+    /* text-decoration: none; */
 }
 
 .nav-connect:hover{
@@ -51,4 +52,9 @@
 li:hover{
     transform: scale(1.2);
     transition: all 0.5s ease-in-out;
+}
+
+.anchor{
+    text-decoration: none;
+    color: #fff;
 }

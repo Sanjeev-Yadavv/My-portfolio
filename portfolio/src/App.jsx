@@ -7,12 +7,14 @@ import Project from './components/Project/Project';
 import Contact from './components/Contact/Contact';
 import Bottom from './components/Bottom/Bottom';
 import './App.css'
+// import {ChakraProvider} from '@chakra-ui/react'
 
 
 const App = () => {
   return (
     <div>
-     <MyNavbar/>
+    
+    <MyNavbar/>
      <Hero/>
      <About/>
      <Skill/>

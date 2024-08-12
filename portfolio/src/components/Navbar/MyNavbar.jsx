@@ -13,7 +13,7 @@ const navbar = () => {
         <li><AnchorLink  className='anchor-link' offset={50} href='#skill'>Skills</AnchorLink></li>
         <li><AnchorLink  className='anchor-link' offset={50} href='#contact'>Contact</AnchorLink></li>
       </ul>
-      <div className="nav-connect">Connect with me</div>
+      <div className="nav-connect"><AnchorLink offset={50} class='anchor' href='#contact'>Connect with me</AnchorLink></div>
     </div>
   )
 }

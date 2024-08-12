@@ -1,6 +1,8 @@
 import React from 'react'
 import './Hero.css'
 import image from '../../assets/image.jpg'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+
 const Hero = () => {
     return (
         <div id='hero' className='hero'>
@@ -9,7 +11,7 @@ const Hero = () => {
             <p>I create dynamic and user-friendly web interfaces, combining my business background with
                 technical skills from Masai School..</p>
             <div className="hero-action">
-                <div className="hero-connect">Connect with me</div>
+            <AnchorLink   offset={50} className='anchor' href='#contact'>  <div className="hero-connect">Connect with me</div></AnchorLink>
                 <div className="hero-resume">My Resume</div>
             </div>
         </div>
